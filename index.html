@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styel.css">
+</head>
+<body>
+    <!-- Question-1 -->
+     <!-- How would you write a CSS rule to select the <p> element inside the <div> and apply a different background color without affecting other <p> elements? -->
+        <h1>Descending combinator[Space]</h1>
+        <div class="container">
+            <p class="text">hello world</p>
+    <div>
+        <p class="text">Nested Paragraph</p>
+    </div>
+        </div>
+    
+      <!-- Question-2 -->
+       <!-- How can you select and change the background color of only the direct child <li> elements of <ul> and not nested <li> elements? -->
+        <h1>child combinator[>]</h1>
+        <div class="parent">
+            <p>MyName Is khaseem sk</p>
+            <span>I'm From Ongole</span>
+        </div>
+        <!-- question-3 -->
+         <!-- Write a selector to style the <p> element that comes immediately after the #First-heading. -->
+            <h1>ADJACENT SIBLING COMBINATOR[+]</h1><hr>
+         <div>
+            <h1 id="First">First Heading</h1>
+            <p>This Is First Paragraph</p>
+            <p class="highlight">This Is Second Paragraph</p>
+    </div>
+    <!-- question-4 -->
+     <!-- How can you select all <p> elements that are siblings of the #second in the DOM structure?  -->
+     <h1>GENERAL SIBLING COMBINATORS[~]</h1><hr>
+     <div>
+         <h2 id="Second"> second Heading</h2>
+         <p >My Hobbies Are playing games</p>
+         <p class="highlight">I Am Good At Coding</p>
+         <p>I'm Trained In 10000 coders</p>
+     </div>
+     <!-- question-5 -->
+      <!-- What selector would target .item elements that are inside the <ul> and are direct children of the .third class? -->
+      <h1>COMBINATION OF COMBINATOR</h1><hr>
+      <div class="third">
+          <ul>
+              <li class="item">Item 1</li>
+              <li class="item">Item 2</li>
+              <li class="item">Item 3</li>
+          </ul>
+          <div>
+              <li class="item">Outside List Item</li>
+          </div>
+      </div>
+       
+</body>
+</html>

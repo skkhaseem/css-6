@@ -1,0 +1,18 @@
+/* Answer-1 */
+.container p{
+    background-color: red;
+}
+.parent>p{
+    background-color: aqua;}
+    #First + p{
+        background-color: aquamarine;
+        color: red;
+    }
+    #Second ~ p{
+        background-color: black;
+        color: aqua;
+    }
+    .third > ul > .item{
+        background-color: magenta;
+        color: black;
+    }
